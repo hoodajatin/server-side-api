@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> bhai jatin	</title>
+	<!-- this is comment -->
+	<style type="text/css">
+body
+{
+background-image:url('nature.jpg');
+}
+
+</style>
+<meta charset="utf-8">
+<!--
+	try it to learn 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="refresh" content="3;url=https://www.mozilla.org/">
+	-->
+<link rel="stylesheet" type="text/css" href="new.css">
+</head>
+	<body>
+		<div class="container">
+<header>
+	<nav>
+		<UL>
+<li><a href="index.html">home</a></li>
+<li><a href="courses.html">courses</a></li>
+<li><a href="about.html">about</a></li>
+<li><a href="contact.html">contact</a></li>
+		</UL>
+</nav>
+	<h1>THIS IS HOME PAGE</h1>
+</header>
+<section class="main">
+<h1> WELCOME</h1>
+<div class="login-form">
+<form action="/api/login" method="POST" id="loginform">
+<label for="username"> USERNAME :</label>
+<input type="text" name="username" id="username"/><br />
+<label for="password"> PASSWORD :</label>
+<input type="password" name="password" id="password"/><br/>
+<input type="checkbox" name="remember" id="remember">
+<label for="remember"> Remember Me</label>
+<br/>
+<div id="errormsg">
+</div>
+<br/>
+<input type="submit" name="loginbutton" id="loginbutton">
+<input type="reset" name="cancelbutton" id="cancelbutton">
+</form>
+<div id="logoutsection">
+	<p>YOU ARE LOGGED IN</p>
+	<button id="logoutbutton">Logout</button>
+</div>
+</div>
+<div id="results" class="boxed">
+	<button id="togglebutton">Hide</button>
+<div id="resultlist">
+
+	Here we will display all the results
+</div>
+</div>
+</section>
+<footer>
+	&copy:2017 jatin.hooda
+</footer>
+</div>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js\app.js"></script>
+</body>
+</html>

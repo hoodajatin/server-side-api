@@ -1,0 +1,122 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+        font-family: Helvetica,Arial,sans-serif;
+        
+}
+
+#errormsg{
+	color: red;
+	font-style: sans-serif;
+}
+
+nav{
+	position: fixed;
+	left:830px;
+	top:20px;
+
+}
+.bordered{
+	border: 1px solid black;
+	border-radius: 2px;
+}
+.container
+{
+	width: 1000px;
+	margin:0 auto;
+	background-color: lightblue;
+	padding: 5px;
+
+}
+footer{
+	padding:10px;
+	border-radius: 5px;
+}
+header nav{
+	float: right;
+
+} 
+header nav li{
+	display: inline;
+	font-size: 16px;
+	padding-right: 5px;
+}
+a{
+	color: blue;
+
+}
+.login-form{
+	width:400px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+	header,footer
+	{
+		border: 2px solid black;
+		background-color: gray;
+		font-family:"Times new roman", Helvetica,Arial,sans-serif;
+
+	}
+
+	.login-form label{
+		font-weight: bold;
+		width: 120px;
+		display: inline-block;
+         padding-bottom:10px
+
+
+	}
+	#results
+	{
+		padding: 2px;
+		width: 300px;
+		vertical-align: top;
+		display: inline-block;
+		border:1px solid black;
+		
+	}
+	.result{
+		margin:5px;
+		padding: 2px;
+		border: 1px dashed black;
+	}
+	.result .title{
+		font-weight: bold;
+	}
+	.boxed{
+		box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.44);
+	}
+	.main{
+		min-height: 600px;
+		border: 2px dotted black;
+		border-radius: 10px;
+		margin: 10px 0px 10px 0px;
+		padding:5px;
+
+	}
+	.login-form input[type=text],.login-form input[type=password] {
+        width: 150px
+		}
+	.login-form input[type=submit],.login-form input[type=reset],
+	button {
+     background-color: gray;
+     color: blue;
+     border-radius: 15px;
+     padding: 4px;
+     margin-top: 2px;
+     width: 80px;
+
+
+	}
+
+#main input[type=reset]
+{
+	background-color: gray;
+}
+#logoutsection{
+	display: none;
+}
