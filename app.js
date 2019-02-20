@@ -7,7 +7,7 @@
 
 $(document).ready(function(){
 
-var resultlist=$("#resultlist");/*same as above commented ,same work*/
+var resultlist=$("#resultlist");/*same as above commented ,same work, it show how to access particular element */
 /*resultlist.text("injected using jquuuery");*/
 
 var togglebutton=$("#togglebutton");
